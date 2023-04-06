@@ -29,6 +29,17 @@ module.exports = () => {
       }),
       new WebpackPwaManifest({
         // TODO: Create a manifest.json:
+        name: 'JATE Text Editor',
+        short_name: 'JATE',
+        description: 'Just Another Text Editor',
+        background_color: '#000000',
+        crossorigin: 'use-credentials', //can be null, use-credentials or anonymous
+        icons: [
+          {
+            src: path.resolve('src/images/logo.png'),
+            sizes: [96, 128, 192, 256, 384, 512] // multiple sizes
+          },
+        ]
       }),
     ],
 
