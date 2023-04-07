@@ -33,6 +33,7 @@ module.exports = () => {
         short_name: 'JATE',
         description: 'Just Another Text Editor',
         background_color: '#000000',
+        start_url: "./",
         crossorigin: 'use-credentials', //can be null, use-credentials or anonymous
         icons: [
           {
