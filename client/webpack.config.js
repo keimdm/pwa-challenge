@@ -9,6 +9,9 @@ const { GenerateSW } = require('workbox-webpack-plugin');
 
 module.exports = () => {
   return {
+    devServer: {
+      port: 9000,
+    },
     mode: 'development',
     entry: {
       main: './src/js/index.js',
