@@ -36,8 +36,11 @@ module.exports = () => {
         short_name: 'JATE',
         description: 'Just Another Text Editor',
         background_color: '#000000',
-        start_url: "./",
+        start_url: '.',
+        publicPath: './',
         crossorigin: 'use-credentials', //can be null, use-credentials or anonymous
+        fingerprints: false,
+        includeDirectory: true,
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
