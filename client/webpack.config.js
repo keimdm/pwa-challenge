@@ -44,7 +44,7 @@ module.exports = () => {
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
-            sizes: [96] // multiple sizes
+            sizes: [96] // multiple size
           },
         ]
       }),
